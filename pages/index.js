@@ -4,7 +4,7 @@ export default function Home({ ssrDate }) {
       <div className="mx-auto max-w-2xl">
         <div className="overflow-hidden rounded-lg bg-white shadow">
           <div className="px-4 py-5 sm:p-6">
-            This page was server-side rendered on {ssrDate}.
+            HELLO This page was server-side rendered on {ssrDate}.
           </div>
         </div>
       </div>
