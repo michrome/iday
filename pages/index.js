@@ -24,7 +24,7 @@ function dateAndTime() {
   const date = Date.now();
   const formattedDate = new Intl.DateTimeFormat("en-US", {
     dateStyle: "long",
-    timeStyle: "medium",
+    timeStyle: "long",
   }).format(date);
   return formattedDate;
 }
