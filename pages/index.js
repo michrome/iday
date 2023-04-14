@@ -14,9 +14,7 @@ export default function Home({ ssrDate }) {
 
 export async function getServerSideProps() {
   const ssrDate = dateAndTime();
-  console.log(
-    `This is a console.log from getServerSideProps in ssr.js. British date is ${ssrDate}.`
-  );
+  console.log(`This is a console.log from getServerSideProps on ${ssrDate}.`);
   return { props: { ssrDate } };
 }
 
